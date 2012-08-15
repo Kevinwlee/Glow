@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF182A1E15DBCB9100D230F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF182A1D15DBCB9100D230F0 /* UIKit.framework */; };
+		FF182A2015DBCB9100D230F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF182A1F15DBCB9100D230F0 /* Foundation.framework */; };
+		FF182A2215DBCB9100D230F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF182A2115DBCB9100D230F0 /* CoreGraphics.framework */; };
+		FF182A2815DBCB9100D230F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF182A2615DBCB9100D230F0 /* InfoPlist.strings */; };
+		FF182A2A15DBCB9100D230F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF182A2915DBCB9100D230F0 /* main.m */; };
+		FF182A2E15DBCB9100D230F0 /* QTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF182A2D15DBCB9100D230F0 /* QTKAppDelegate.m */; };
+		FF182A3115DBCB9100D230F0 /* QTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF182A3015DBCB9100D230F0 /* QTKViewController.m */; };
+		FF182A3415DBCB9100D230F0 /* QTKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF182A3215DBCB9100D230F0 /* QTKViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF182A1915DBCB9100D230F0 /* Glow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF182A1D15DBCB9100D230F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF182A1F15DBCB9100D230F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF182A2115DBCB9100D230F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF182A2515DBCB9100D230F0 /* Glow-Info.plist */ = {isa = PBXFileReference; path = "Glow-Info.plist"; sourceTree = "<group>"; };
+		FF182A2715DBCB9100D230F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF182A2915DBCB9100D230F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF182A2B15DBCB9100D230F0 /* Glow-Prefix.pch */ = {isa = PBXFileReference; path = "Glow-Prefix.pch"; sourceTree = "<group>"; };
+		FF182A2C15DBCB9100D230F0 /* QTKAppDelegate.h */ = {isa = PBXFileReference; path = QTKAppDelegate.h; sourceTree = "<group>"; };
+		FF182A2D15DBCB9100D230F0 /* QTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKAppDelegate.m; sourceTree = "<group>"; };
+		FF182A2F15DBCB9100D230F0 /* QTKViewController.h */ = {isa = PBXFileReference; path = QTKViewController.h; sourceTree = "<group>"; };
+		FF182A3015DBCB9100D230F0 /* QTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKViewController.m; sourceTree = "<group>"; };
+		FF182A3315DBCB9100D230F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF182A1615DBCB9100D230F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF182A1E15DBCB9100D230F0 /* UIKit.framework in Frameworks */,
+				FF182A2015DBCB9100D230F0 /* Foundation.framework in Frameworks */,
+				FF182A2215DBCB9100D230F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF182A0E15DBCB9100D230F0 = {
+			isa = PBXGroup;
+			children = (
+				FF182A2315DBCB9100D230F0 /* Glow */,
+				FF182A1C15DBCB9100D230F0 /* Frameworks */,
+				FF182A1A15DBCB9100D230F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF182A1A15DBCB9100D230F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF182A1915DBCB9100D230F0 /* Glow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF182A1C15DBCB9100D230F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF182A1D15DBCB9100D230F0 /* UIKit.framework */,
+				FF182A1F15DBCB9100D230F0 /* Foundation.framework */,
+				FF182A2115DBCB9100D230F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF182A2315DBCB9100D230F0 /* Glow */ = {
+			isa = PBXGroup;
+			children = (
+				FF182A2C15DBCB9100D230F0 /* QTKAppDelegate.h */,
+				FF182A2D15DBCB9100D230F0 /* QTKAppDelegate.m */,
+				FF182A2F15DBCB9100D230F0 /* QTKViewController.h */,
+				FF182A3015DBCB9100D230F0 /* QTKViewController.m */,
+				FF182A3215DBCB9100D230F0 /* QTKViewController.xib */,
+				FF182A2415DBCB9100D230F0 /* Supporting Files */,
+			);
+			path = Glow;
+			sourceTree = "<group>";
+		};
+		FF182A2415DBCB9100D230F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF182A2515DBCB9100D230F0 /* Glow-Info.plist */,
+				FF182A2615DBCB9100D230F0 /* InfoPlist.strings */,
+				FF182A2915DBCB9100D230F0 /* main.m */,
+				FF182A2B15DBCB9100D230F0 /* Glow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF182A1815DBCB9100D230F0 /* Glow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF182A3715DBCB9100D230F0 /* Build configuration list for PBXNativeTarget "Glow" */;
+			buildPhases = (
+				FF182A1515DBCB9100D230F0 /* Sources */,
+				FF182A1615DBCB9100D230F0 /* Frameworks */,
+				FF182A1715DBCB9100D230F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glow;
+			productName = Glow;
+			productReference = FF182A1915DBCB9100D230F0 /* Glow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF182A1015DBCB9100D230F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QTK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FF182A1315DBCB9100D230F0 /* Build configuration list for PBXProject "Glow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF182A0E15DBCB9100D230F0;
+			productRefGroup = FF182A1A15DBCB9100D230F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF182A1815DBCB9100D230F0 /* Glow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF182A1715DBCB9100D230F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF182A2815DBCB9100D230F0 /* InfoPlist.strings in Resources */,
+				FF182A3415DBCB9100D230F0 /* QTKViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF182A1515DBCB9100D230F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF182A2A15DBCB9100D230F0 /* main.m in Sources */,
+				FF182A2E15DBCB9100D230F0 /* QTKAppDelegate.m in Sources */,
+				FF182A3115DBCB9100D230F0 /* QTKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF182A2615DBCB9100D230F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF182A2715DBCB9100D230F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF182A3215DBCB9100D230F0 /* QTKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF182A3315DBCB9100D230F0 /* en */,
+			);
+			name = QTKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF182A3515DBCB9100D230F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF182A3615DBCB9100D230F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF182A3815DBCB9100D230F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glow/Glow-Prefix.pch";
+				INFOPLIST_FILE = "Glow/Glow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF182A3915DBCB9100D230F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glow/Glow-Prefix.pch";
+				INFOPLIST_FILE = "Glow/Glow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF182A1315DBCB9100D230F0 /* Build configuration list for PBXProject "Glow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF182A3515DBCB9100D230F0 /* Debug */,
+				FF182A3615DBCB9100D230F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF182A3715DBCB9100D230F0 /* Build configuration list for PBXNativeTarget "Glow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF182A3815DBCB9100D230F0 /* Debug */,
+				FF182A3915DBCB9100D230F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF182A1015DBCB9100D230F0 /* Project object */;
+}
