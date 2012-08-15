@@ -15,6 +15,8 @@
 		FF182A2E15DBCB9100D230F0 /* QTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF182A2D15DBCB9100D230F0 /* QTKAppDelegate.m */; };
 		FF182A3115DBCB9100D230F0 /* QTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF182A3015DBCB9100D230F0 /* QTKViewController.m */; };
 		FF182A3415DBCB9100D230F0 /* QTKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF182A3215DBCB9100D230F0 /* QTKViewController.xib */; };
+		FF182A3B15DBCC9300D230F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF182A3A15DBCC9300D230F0 /* QuartzCore.framework */; };
+		FF182A3D15DBCF8100D230F0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF182A3C15DBCF8100D230F0 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		FF182A1D15DBCB9100D230F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF182A1F15DBCB9100D230F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF182A2115DBCB9100D230F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FF182A2515DBCB9100D230F0 /* Glow-Info.plist */ = {isa = PBXFileReference; path = "Glow-Info.plist"; sourceTree = "<group>"; };
+		FF182A2515DBCB9100D230F0 /* Glow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glow-Info.plist"; sourceTree = "<group>"; };
 		FF182A2715DBCB9100D230F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF182A2915DBCB9100D230F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF182A2B15DBCB9100D230F0 /* Glow-Prefix.pch */ = {isa = PBXFileReference; path = "Glow-Prefix.pch"; sourceTree = "<group>"; };
-		FF182A2C15DBCB9100D230F0 /* QTKAppDelegate.h */ = {isa = PBXFileReference; path = QTKAppDelegate.h; sourceTree = "<group>"; };
+		FF182A2B15DBCB9100D230F0 /* Glow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glow-Prefix.pch"; sourceTree = "<group>"; };
+		FF182A2C15DBCB9100D230F0 /* QTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKAppDelegate.h; sourceTree = "<group>"; };
 		FF182A2D15DBCB9100D230F0 /* QTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKAppDelegate.m; sourceTree = "<group>"; };
-		FF182A2F15DBCB9100D230F0 /* QTKViewController.h */ = {isa = PBXFileReference; path = QTKViewController.h; sourceTree = "<group>"; };
+		FF182A2F15DBCB9100D230F0 /* QTKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKViewController.h; sourceTree = "<group>"; };
 		FF182A3015DBCB9100D230F0 /* QTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKViewController.m; sourceTree = "<group>"; };
 		FF182A3315DBCB9100D230F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QTKViewController.xib; sourceTree = "<group>"; };
+		FF182A3A15DBCC9300D230F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF182A3C15DBCF8100D230F0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF182A3D15DBCF8100D230F0 /* CoreImage.framework in Frameworks */,
+				FF182A3B15DBCC9300D230F0 /* QuartzCore.framework in Frameworks */,
 				FF182A1E15DBCB9100D230F0 /* UIKit.framework in Frameworks */,
 				FF182A2015DBCB9100D230F0 /* Foundation.framework in Frameworks */,
 				FF182A2215DBCB9100D230F0 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +56,8 @@
 		FF182A0E15DBCB9100D230F0 = {
 			isa = PBXGroup;
 			children = (
+				FF182A3C15DBCF8100D230F0 /* CoreImage.framework */,
+				FF182A3A15DBCC9300D230F0 /* QuartzCore.framework */,
 				FF182A2315DBCB9100D230F0 /* Glow */,
 				FF182A1C15DBCB9100D230F0 /* Frameworks */,
 				FF182A1A15DBCB9100D230F0 /* Products */,
